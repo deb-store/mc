@@ -1,8 +1,8 @@
  dpkg-buildpackage -us -uc -ui -i -d -S
 dpkg-buildpackage: info: source package mc
-dpkg-buildpackage: info: source version 3:4.8.27-1
+dpkg-buildpackage: info: source version 3:4.8.27-100
 dpkg-buildpackage: info: source distribution unstable
-dpkg-buildpackage: info: source changed by Dmitry Smirnov <onlyjob@debian.org>
+dpkg-buildpackage: info: source changed by Package Store <kitsune.solar@gmail.com>
  dpkg-source -i --before-build .
 dpkg-source: info: using options from _build/debian/source/options: --extend-diff-ignore=(^|/)po/[^/]+\.po$
  debian/rules clean
@@ -1157,16 +1157,18 @@ dpkg-source: warning: ignoring deletion of file po/en@quot.header, use --include
 dpkg-source: warning: ignoring deletion of file po/ru.gmo, use --include-removal to override
 dpkg-source: warning: ignoring deletion of file po/nl.gmo, use --include-removal to override
 dpkg-source: warning: ignoring deletion of file po/Rules-quot, use --include-removal to override
-dpkg-source: info: building mc in mc_4.8.27-1.debian.tar.xz
-dpkg-source: info: building mc in mc_4.8.27-1.dsc
+dpkg-source: info: building mc in mc_4.8.27-100.debian.tar.xz
+dpkg-source: info: building mc in mc_4.8.27-100.dsc
  dpkg-genbuildinfo --build=source
- dpkg-genchanges --build=source >../mc_4.8.27-1_source.changes
-dpkg-genchanges: info: including full source code in upload
+ dpkg-genchanges --build=source >../mc_4.8.27-100_source.changes
+dpkg-genchanges: info: not including original source code in upload
  dpkg-source -i --after-build .
 dpkg-source: info: using options from _build/debian/source/options: --extend-diff-ignore=(^|/)po/[^/]+\.po$
-dpkg-buildpackage: info: full upload (original source is included)
-Now running lintian mc_4.8.27-1_source.changes ...
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian mc_4.8.27-100_source.changes ...
 warning: running with root privileges is not recommended!
 W: mc source: newer-standards-version 4.6.0 (current is 4.5.1)
+W: mc source: no-nmu-in-changelog
 W: mc source: patch-file-present-but-not-mentioned-in-series uzip_528239.patch
+W: mc source: source-nmu-has-incorrect-version-number 3:4.8.27-100
 Finished running lintian.

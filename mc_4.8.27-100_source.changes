@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 17 Sep 2021 07:05:32 +0000
+Source: mc
+Architecture: source
+Version: 3:4.8.27-100
+Distribution: unstable
+Urgency: medium
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Changed-By: Package Store <kitsune.solar@gmail.com>
+Changes:
+ mc (3:4.8.27-100) unstable; urgency=medium
+ .
+   * COMMIT: 2681ca1fae8cf840f6ae431a81a824a15357e1b4.
+   * UPD: Move to DEB Store.
+Checksums-Sha1:
+ 1a97f1cf3ee23968a4b19bf77cb7c0a11bae00e8 1228 mc_4.8.27-100.dsc
+ 91ab11b1537bdb61984bfcda80cb4b0bd5ff4792 47884 mc_4.8.27-100.debian.tar.xz
+ a07dd2c575c0b26dc10c5e9b74b9625ea6c52378 4404 mc_4.8.27-100_source.buildinfo
+Checksums-Sha256:
+ fd7ef274cad8360113f385ab0d3330d4a42ed8ebaf94b0b602758fc52a187934 1228 mc_4.8.27-100.dsc
+ a8da738d689309f8d7dbf004ad936f0441e666ecd7fa205a9f2d10e75c12e39f 47884 mc_4.8.27-100.debian.tar.xz
+ b71275aa59b465b4701619fe1607fc81262ccac85e71f858cc9fbafb024cb76b 4404 mc_4.8.27-100_source.buildinfo
+Files:
+ cffb9c016b9ab0da0ce64081098834b0 1228 utils optional mc_4.8.27-100.dsc
+ cc6f721595c7eefac29ae57d0ccc80ba 47884 utils optional mc_4.8.27-100.debian.tar.xz
+ eb2f588385e9e09789b6d3c6fa8bcbe2 4404 utils optional mc_4.8.27-100_source.buildinfo

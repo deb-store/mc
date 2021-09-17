@@ -1,16 +1,16 @@
 Format: 1.0
 Source: mc
 Architecture: source
-Version: 3:4.8.27-1
+Version: 3:4.8.27-100
 Checksums-Md5:
- aabb4ef01f1b70066b8af987cdd833e1 1220 mc_4.8.27-1.dsc
+ cffb9c016b9ab0da0ce64081098834b0 1228 mc_4.8.27-100.dsc
 Checksums-Sha1:
- ea1dd442ca19a3d036668b4654ec7e44f075e79e 1220 mc_4.8.27-1.dsc
+ 1a97f1cf3ee23968a4b19bf77cb7c0a11bae00e8 1228 mc_4.8.27-100.dsc
 Checksums-Sha256:
- 644d3041eb782373b1eecaf8f6571d152ea093e086c501f02acaa0da6b76ca16 1220 mc_4.8.27-1.dsc
+ fd7ef274cad8360113f385ab0d3330d4a42ed8ebaf94b0b602758fc52a187934 1228 mc_4.8.27-100.dsc
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 16 Sep 2021 09:50:19 +0000
+Build-Date: Fri, 17 Sep 2021 07:26:03 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-14),
  automake (= 1:1.16.3-2),
@@ -162,4 +162,4 @@ Installed-Build-Depends:
  zlib1g (= 1:1.2.11.dfsg-2)
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
- SOURCE_DATE_EPOCH="1630604115"
+ SOURCE_DATE_EPOCH="1631862332"
