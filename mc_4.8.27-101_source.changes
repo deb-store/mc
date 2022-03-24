@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 25 Mar 2022 00:49:00 +0300
+Source: mc
+Architecture: source
+Version: 3:4.8.27-101
+Distribution: unstable
+Urgency: medium
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Changed-By: Package Store <mail@z17.dev>
+Changes:
+ mc (3:4.8.27-101) unstable; urgency=medium
+ .
+   * UPD: ChangeLog file.
+Checksums-Sha1:
+ b7a86045bf885a31d53e609897cc084a0c512c23 1228 mc_4.8.27-101.dsc
+ 695f4e372414649805d6c5024596d57d288e0a91 47908 mc_4.8.27-101.debian.tar.xz
+ e95953d22f9b885ae1a51843aa5e27ee958c2d91 4581 mc_4.8.27-101_source.buildinfo
+Checksums-Sha256:
+ c10d5961df9bdc0eaa69e823010e01a409ae148fd7544ba7da17b05f88ea0746 1228 mc_4.8.27-101.dsc
+ 27c46f86fd85327379d91fae63b8b483817100424887cb98a1aaa3a9ff806cec 47908 mc_4.8.27-101.debian.tar.xz
+ 1afa80c6953e211afb2af27113996646ef710e9c6e3e3dd8dcb896a5285fc0e5 4581 mc_4.8.27-101_source.buildinfo
+Files:
+ ecfd09d1c2fa07a8118492dadd5d5cab 1228 utils optional mc_4.8.27-101.dsc
+ 432a673dde2b362978d6b569b3257573 47908 utils optional mc_4.8.27-101.debian.tar.xz
+ 2794c5e37b3264a12bcf5504468aba14 4581 utils optional mc_4.8.27-101_source.buildinfo
